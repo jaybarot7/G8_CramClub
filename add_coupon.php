@@ -1,5 +1,6 @@
 
 <?php
+$userType = "admin";
 require('dbinit.php'); 
 
 class CouponManager

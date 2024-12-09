@@ -1,0 +1,162 @@
+body {
+    color: black;
+}
+
+.bg-dark {
+    background-color: #FBFBFD !important;
+}
+
+.main-page-wrapper {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.home-page-wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+header {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Navbar Styles */
+.navbar1 {
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: row;
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #ff5e57, #f67b50);
+}
+
+/* Navbar Brand (Logo + Text) */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+/* Navbar Menu Items */
+.navbar-nav {
+    display: flex; /* Aligns items horizontally */
+    justify-content: flex-start; /* Aligns items to the right */
+    flex-direction: column;
+    gap: 20px; /* Adds spacing between menu items */
+    list-style: none; /* Removes default bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Links */
+.nav-link {
+    color: #fff !important;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column; /* Stacks items vertically on small screens */
+        gap: 10px;
+    }
+}
+/* .navbar-dark .navbar-text {
+    font-size: 25px;
+    color: black !important;
+}
+
+.navbar-dark .navbar-text:hover {
+    text-decoration: underline;
+} */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.product-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.no-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+
+/* .navbar-dark .navbar-nav .nav-link {
+    color: black !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+} */
+
+.add-product-heading {
+    color: black;
+}
+
+.table thead th {
+    white-space: nowrap !important;
+}
+
+.btn-update {
+    margin: auto;
+    display: block;
+}
+
+.add-product-container,
+.update-product-container {
+    margin-bottom: 70px;
+}
+
+.add-product-button,
+.update-product-button {
+    background: #111111;
+    color: white;
+    border-color: #111111;
+    font-weight: bold;
+}
+
+.add-product-button:hover,
+.update-product-button:hover {
+    background: #ffffff;
+    color: black;
+    border-color: #6a2509;
+}
+
+.product-error {
+    color: red;
+    font-size: 14px;
+}
+
+.card-text {
+    text-align: justify !important;
+}
+
+.header-logo-img {
+    height: 40px;
+}
+
+.card-footer-row {
+    margin: 0;
+}
+
+#map iframe {
+    width: 100% !important;
+}
